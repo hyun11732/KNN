@@ -2,6 +2,7 @@ import math
 
 K = 3
 
+#calculate distance between trees
 def distance(point1, point2):
     dim = len(point1)
     dis = 0
@@ -48,6 +49,7 @@ if __name__ == "__main__":
     train_row = 0
     test_row = 0
     labels = []
+    # change the format of input to [(point1), (point2), (point3)], [label1, label2, label3]
     while string != "":
         values = string.split()
         label = values[0]
